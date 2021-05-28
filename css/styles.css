@@ -5,8 +5,11 @@ img {
 }
 
 .card-width img {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 10% 100%;
+  padding: 1rem;
 }
 
 h1 {
