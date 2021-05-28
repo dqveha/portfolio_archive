@@ -1,7 +1,5 @@
-img {
-  width: 400px;
-  display: block;
-  margin: auto;
+.card {
+  margin: 0 5px 10px 5px;
 }
 
 .card-width img {
@@ -12,8 +10,29 @@ img {
   padding: 1rem 1rem 0 1rem;
 }
 
+.float_right img {
+  float: right;
+  width: 20px;
+}
+
+.jumbotron {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1rem;
+  padding: 1rem;
+}
+
+.justify p {
+  text-align: justify;
+  margin-left: 2rem;
+}
+
+.justify-content-end {
+  margin-right: 5rem;
+}
+
 h1 {
-  text-align: center;
+  text-align: left;
 }
 
 h2 {
@@ -30,19 +49,13 @@ h3 {
   border-color: aliceblue
 }
 
-.justify p {
-  text-align: justify;
-  margin-left: 2rem;
+img {
+  width: 400px;
+  display: block;
+  margin: auto;
 }
 
-.jumbotron {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 1rem;
-  padding: 1rem;
-}
-
-.float_right img {
-  float: right;
-  width: 4%;
+nav > a > img {
+  height: 20px;
+  width: auto;
 }
