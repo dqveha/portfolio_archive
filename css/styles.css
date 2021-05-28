@@ -1,5 +1,5 @@
 .card {
-  margin: 0 5px 10px 5px;
+  margin: 0 10px 20px 10px;
 }
 
 .card-width img {
@@ -31,18 +31,14 @@
   margin-right: 5rem;
 }
 
-h1 {
-  text-align: left;
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
 }
 
-h2 {
-  text-align: center;
-  border-width: 2px;  
-  border-bottom-style: outset;
-  border-color: aliceblue
-}
 
-h3 {
+h2, h3 {
   text-align: center;
   border-width: 2px;  
   border-bottom-style: outset;
@@ -55,7 +51,11 @@ img {
   margin: auto;
 }
 
-nav > a > img {
+
+span > a > img {
   height: 20px;
   width: auto;
+  margin-left: -1.5rem;
 }
+
+
