@@ -4,6 +4,34 @@ img {
   margin: auto;
 }
 
+.card-width img {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
 h2 {
   text-align: center;
+  border-width: 2px;  
+  border-bottom-style: outset;
+  border-color: aliceblue
+}
+
+h3 {
+  text-align: center;
+}
+
+.justify p {
+  text-align: justify;
+  margin-left: 2rem;
+}
+
+.jumbotron {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1rem;
+  padding: 1rem;
 }
