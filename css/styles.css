@@ -22,6 +22,12 @@
   padding: 1rem;
 }
 
+.jumbotron img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .justify p {
   text-align: justify;
   margin-left: 2rem;
@@ -50,7 +56,6 @@ img {
   display: block;
   margin: auto;
 }
-
 
 span > a > img {
   height: 20px;
