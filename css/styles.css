@@ -2,13 +2,8 @@ img {
   width: 400px;
   display: block;
   margin: auto;
-  /* position later */
 }
 
-.container > h2 {
-  text-align: center;
-}
-
-.container > .row > .col-4 > h2 {
+h2 {
   text-align: center;
 }
