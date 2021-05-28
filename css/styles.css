@@ -1,0 +1,8 @@
+img {
+  width: 400px;
+  /* position later */
+}
+
+.container > h2 {
+  text-align: center;
+}
